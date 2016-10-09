@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="AssignApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../angular.min.js"></script>
+    <script src="app.js"></script>
+    <style>body {font-size: 1.3em;}</style>
+    <title>Assignment 1</title>
+</head>
+<body>
+<h1>Assignment 1</h1>
+<div ng-controller="AssignController">
+    <input type="text" ng-model="name" >
+    <button ng-click="displayMessage()">Push!</button>
+    <br>
+    {{message}}
+</div>
+</body>
+</html>
